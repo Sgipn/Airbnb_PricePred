@@ -24,6 +24,8 @@ Current Progress:
 
 Navigating this project:
 * `./data`: contains 2 .csv files containing raw and preprocessed AirBnB data originally sourced from kaggle.com.
+  - `AB_NYC_2019.csv`: contains raw airbnb dataset from kaggle.
+  - `listings.csv`: contains preprocessed data with 38837 rows × 14 columns.
 * `./notebooks`: contains jupyter notebooks of our preprocessing, EDA, modelling, and testing. 
   - `preprocessing&eda.ipynb` contains preprocessing and eda.
   - `lasso.ipyn` contains lasso model training and testing.  
