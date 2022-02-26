@@ -1,4 +1,4 @@
-# Airbnb_PricePred
+# Airbnb Price Prediction
 
 Current Progress:
 - Preprocessing: 
