@@ -1,5 +1,5 @@
 # Airbnb Price Prediction
-
+------------------------------------------
 Current Progress:
 - Preprocessing: 
    1) Removed listings with invalid names, 
@@ -19,5 +19,17 @@ Current Progress:
 
 - Evaluation: (accuracy and time complexity
   - Metric: MSE? 
+
+------------------------------------------
+
+Navigating this project:
+* `./data`: contains 2 .csv files containing raw and preprocessed AirBnB data originally sourced from kaggle.com.
+* `./notebooks`: contains jupyter notebooks of our preprocessing, EDA, modelling, and testing. 
+  - `preprocessing&eda.ipynb` contains preprocessing and eda.
+  - `lasso.ipyn` contains lasso model training and testing.  
+
+
+
+
 
 Contributors: Mikaela Lim, Gianni Spiga, Sharon Vien, Kevin Xu
