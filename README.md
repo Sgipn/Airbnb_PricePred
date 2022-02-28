@@ -28,7 +28,7 @@ Navigating this project:
   - `listings.csv`: contains preprocessed data with 38837 rows × 14 columns.
 * `./notebooks`: contains jupyter notebooks of our preprocessing, EDA, modelling, and testing. 
   - `preprocessing&eda.ipynb` contains preprocessing and eda.
-  - `lasso.ipyn` contains lasso model training and testing.  
+  - `lasso.ipynb` contains lasso model training and testing.  
 
 
 
