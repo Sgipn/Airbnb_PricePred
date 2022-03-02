@@ -12,13 +12,16 @@ Current Progress:
    3) ...
 
 - Modelling Procedure: [In Progress]
-  1) Ridge Regression
-  2) Linear Regression (OLS)
-  3) Lasso
-  4) ...
+  1) Linear Regression (OLS)
+  2) Ridge Regression
+  3) Lasso 
+    - Overview the Lasso model, unique attributes, and optimization process. 
+    - Show difference from Ridge. (plot beta coeffs as $\lambda -> \inf$ for Lasso and Ridge to show the difference between the two shrinkage methods. (Lasso: Betas reach 0. Ridge: Betas reach ~ 0)
+    - Run various direct/iterative methods to solve for Lasso coefficients (LU, QR, Cholesky, Gauss-Seidel, SVD, Power), and show derivation.
+  4) ... 
 
 - Evaluation: (accuracy and time complexity
-  - Metric: MSE? 
+  - Metric: MSE, run time, generalizability/interpretatbility.
 
 ------------------------------------------
 
