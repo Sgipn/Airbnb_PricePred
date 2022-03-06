@@ -35,7 +35,7 @@ Navigating this project:
   - `OLS.ipynb` contains linear regression (ordinary least squares) model training and testing.
   - `Ridge Regression.ipynb` contains ridge regression model training and testing.
   - `Lasso Regression.ipynb` contains lasso regression model training and testing.  
-  - 
+  - `Elastic Net Regression.ipynb` contains elastic net regression model training and testing.
     
 
 
