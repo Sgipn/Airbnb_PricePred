@@ -32,7 +32,11 @@ Navigating this project:
   - `listings.csv`: contains preprocessed data with 38837 rows × 14 columns.
 * `./notebooks`: contains jupyter notebooks of our preprocessing, EDA, modelling, and testing. 
   - `preprocessing&eda.ipynb` contains preprocessing and eda.
-  - `lasso.ipynb` contains lasso model training and testing.  
+  - `OLS.ipynb` contains linear regression (ordinary least squares) model training and testing.
+  - `Ridge Regression.ipynb` contains ridge regression model training and testing.
+  - `Lasso Regression.ipynb` contains lasso regression model training and testing.  
+  - 
+    
 
 
 
