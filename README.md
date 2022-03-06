@@ -7,16 +7,16 @@ Current Progress:
    3) Removed observations with NaN values in last_review (date value) since listings with no reviews will have no last_review.
 
 - EDA: [In Progress]
-   1) Created a Correlogram of the 14 remaining variables. Identified number of reviews and reviews per month to be highly correlated. No other pair of variables was highly correlated with high correlation defined at $|r_ij| \ge 0.5$. Shown in preprocessing&eda.ipynb
+   1) Created a Correlogram of the 14 remaining variables. Identified number of reviews and reviews per month to be highly correlated. No other pair of variables was highly correlated with high correlation defined at $$|r_ij| \ge 0.5$$. Shown in preprocessing&eda.ipynb
    2) Created a Word cloud from listing names. Shown in preprocessing&eda.ipynb
 
 - Modelling Procedure: [In Progress]
   1) Linear Regression (OLS)
   2) Ridge Regression
   3) Lasso
-      - Plot of Beta paths: $\beta_{j}, j = 1,...,232$.
-      - 10-fold cross validation for $\lambda tuning$. MAE of each of 10x400 models was calculated. (10 models per lambda, 400 lamdba values) 
-      - Lowest MAE found at $\lambda \approx 4$.
+      - Plot of Beta paths: $$\beta_{j}, j = 1,...,232$$.
+      - 10-fold cross validation for $$\lambda tuning$$. MAE of each of 4000 models was calculated. (10 models per lambda, 400 lamdba values) 
+      - Lowest MAE found at $$\lambda \approx 4$$.
       - Prediction Accuracy [In Progress]
       - Testing on Simulated data [In Progress]
   5) ... 
