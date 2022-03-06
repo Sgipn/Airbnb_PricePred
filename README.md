@@ -9,17 +9,17 @@ Current Progress:
 - EDA: [In Progress]
    1) Created a Correlogram of the 14 remaining variables. Identified number of reviews and reviews per month to be highly correlated. No other pair of variables was highly correlated with high correlation defined at $|r_ij| \ge 0.5$. Shown in preprocessing&eda.ipynb
    2) Created a Word cloud from listing names. Shown in preprocessing&eda.ipynb
-   3) ...
 
 - Modelling Procedure: [In Progress]
   1) Linear Regression (OLS)
   2) Ridge Regression
-  3) Lasso 
-    - Overview the Lasso model, unique attributes, and optimization process. 
-    - Show difference from Ridge. (plot beta coeffs as $\lambda -> \inf$ for Lasso and Ridge to show the difference between the two shrinkage methods. (Lasso: Betas reach 0. Ridge: Betas reach ~ 0)
-    - Run various direct/iterative methods to solve for Lasso coefficients (LU, QR, Cholesky, Gauss-Seidel, SVD, Power), and show derivation.
-    - If time permits, repeat for Multi-task Lasso.
-  4) ... 
+  3) Lasso
+      - Plot of Beta paths: $\beta_{j}, j = 1,...,232$.
+      - 10-fold cross validation for $\lambda tuning$. MAE of each of 10x400 models was calculated. (10 models per lambda, 400 lamdba values) 
+      - Lowest MAE found at $\lambda \approx 4$.
+      - Prediction Accuracy [In Progress]
+      - Testing on Simulated data [In Progress]
+  5) ... 
 
 - Evaluation: (accuracy and time complexity
   - Metric: MSE, run time, generalizability/interpretatbility.
