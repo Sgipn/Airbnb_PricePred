@@ -36,7 +36,7 @@ Current Progress:
         
         Additionally, the neighborhood group: Manhattan is the second most important predictor variable. This also makes intuitive sense- perhaps people who are visiting NYC will more likely rent a property if it is close to well-known tourist hotspots/shopping areas such as in Manhattan. This can be supported by our WordCloud from our EDA where 'Manhattan' is a buzzword among listing descriptions-- perhaps property owners recognize that Manhattan is a buzzword that can increase likelihood of rental.    
         
-        Low R^2 but Lasso is not overfit to the data at hand and can potentially be generalizable to other airbnb housing data in NYC. The R^2 is low because the shrinkage effect from Lasso has introduced some bias into the model,  
+        Low R^2 but Lasso is not overfit to the data at hand and can potentially be generalizable to other airbnb housing data in NYC. The R^2 is low because the shrinkage effect from Lasso has introduced some bias into the model. Additionally, R^2 generally goes down when variables are reduced.
 
 ------------------------------------------
 
