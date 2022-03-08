@@ -25,12 +25,18 @@ Current Progress:
   - Metric: MSE and/or MAE, run time, generalizability/interpretatbility.
   - Lasso Final Model:
       - $$y = 17.21323117 X_{availability_365} + 2.6954145 X_{neighbourhood_group_Brooklyn} + 27.00013305 X_{neighbourhood_group_Manhattan} + 68.55946047 X_{room_type_Entire home/apt} + 14.12280336 X_{room_type_Private room} + \epsilon$$ with $\epsilon$: noise term, and $\lambda = 16.75252472408214$ tuned from minimium MAE .
-      - MSE = [running]
-      - MAE = [running]
-      - R^2 = [running]
-      - Adjusted R^2 = 
-      - Interpretation: Since all variables were standardized before any training/tuning, we see that the most important variables for predicting airbnb rental price contains the above five variables. Moreover, the type of rental property (room_type_Entire home/apt) is the most important variable that determines price. This makes intuitive sense- rental price of a house will probably be more expensive that renting a room. Additionally, the neighborhood group: Manhattan is the second most important predictor variable. This also makes intuitive sense- perhaps people who are visiting NYC will more likely rent a property if it is close to well-known tourist hotspots/shopping areas such as in Manhattan. This can be supported by our WordCloud from our EDA where 'Manhattan' is a buzzword among listing descriptions-- perhaps property owners recognize that Manhattan is a buzzword that can increase likelihood of rental.    
-      - h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+      - y<sub>i;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+      - MSE = 8518285.47446669
+      - MAE = 1933.949472793181
+      - R^2 = 0.008392601714535127
+      - Adjusted R^2 = [?]
+      - Run time: 0.04804269998567179 seconds
+      - Interpretation: 
+        Since all variables were standardized before any training/tuning, we see that the most important variables for predicting airbnb rental price contains the above five variables. Moreover, the type of rental property (room_type_Entire home/apt) is the most important variable that determines price. This makes intuitive sense- rental price of a house will probably be more expensive that renting a room. 
+        
+        Additionally, the neighborhood group: Manhattan is the second most important predictor variable. This also makes intuitive sense- perhaps people who are visiting NYC will more likely rent a property if it is close to well-known tourist hotspots/shopping areas such as in Manhattan. This can be supported by our WordCloud from our EDA where 'Manhattan' is a buzzword among listing descriptions-- perhaps property owners recognize that Manhattan is a buzzword that can increase likelihood of rental.    
+        
+        Low R^2 but Lasso is not overfit to the data at hand and can potentially be generalizable to other airbnb housing data in NYC. The R^2 is low because the shrinkage effect from Lasso has introduced some bias into the model,  
 
 ------------------------------------------
 
