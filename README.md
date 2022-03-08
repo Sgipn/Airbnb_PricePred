@@ -30,6 +30,7 @@ Current Progress:
       - R^2 = [running]
       - Adjusted R^2 = 
       - Interpretation: Since all variables were standardized before any training/tuning, we see that the most important variables for predicting airbnb rental price contains the above five variables. Moreover, the type of rental property (room_type_Entire home/apt) is the most important variable that determines price. This makes intuitive sense- rental price of a house will probably be more expensive that renting a room. Additionally, the neighborhood group: Manhattan is the second most important predictor variable. This also makes intuitive sense- perhaps people who are visiting NYC will more likely rent a property if it is close to well-known tourist hotspots/shopping areas such as in Manhattan. This can be supported by our WordCloud from our EDA where 'Manhattan' is a buzzword among listing descriptions-- perhaps property owners recognize that Manhattan is a buzzword that can increase likelihood of rental.    
+      - h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
 ------------------------------------------
 
